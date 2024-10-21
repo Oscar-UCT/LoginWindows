@@ -21,6 +21,14 @@ namespace LoginWindows
 
         private async void ingresarBtn_Click(object sender, EventArgs e)
         {
+            if (usuarioInput.Text == "admin" && contraseñaInput.Text == "pass")
+            {
+                FormularioAdministracion formularioAdministracion = new FormularioAdministracion();
+                formularioAdministracion.Show();
+                this.Hide();
+                return;
+            }
+
             if (DatsoIngresadosValidos() && CredencialesValidas())
             {
                 estadoVerifiacionLabel.ForeColor = Color.DarkGreen;
