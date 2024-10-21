@@ -25,7 +25,7 @@ namespace LoginWindows
             {
                 FormularioAdministracion formularioAdministracion = new FormularioAdministracion();
                 formularioAdministracion.Show();
-                this.Dispose();
+                this.Hide();
                 return;
             }
 
@@ -37,7 +37,7 @@ namespace LoginWindows
 
                 PestañaDashboard dashboard = new PestañaDashboard(usuarioInput.Text);
                 dashboard.Show();
-                this.Dispose();
+                this.Hide();
             }
             else
             {
@@ -81,7 +81,7 @@ namespace LoginWindows
         {
             FormularioRegistro formularioRegistro = new FormularioRegistro();
             formularioRegistro.Show();
-            this.Dispose();
+            this.Hide();
         }
     }
 }
