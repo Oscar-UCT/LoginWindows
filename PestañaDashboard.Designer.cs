@@ -61,7 +61,7 @@
             // 
             this.usuarioDashboard.AutoSize = true;
             this.usuarioDashboard.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.usuarioDashboard.Location = new System.Drawing.Point(134, 90);
+            this.usuarioDashboard.Location = new System.Drawing.Point(149, 90);
             this.usuarioDashboard.Name = "usuarioDashboard";
             this.usuarioDashboard.Size = new System.Drawing.Size(23, 31);
             this.usuarioDashboard.TabIndex = 2;
@@ -83,9 +83,9 @@
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(15, 134);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(136, 31);
+            this.label5.Size = new System.Drawing.Size(108, 31);
             this.label5.TabIndex = 3;
-            this.label5.Text = "Direccion:";
+            this.label5.Text = "Ciudad:";
             // 
             // telefonoUsuarioLabel
             // 
