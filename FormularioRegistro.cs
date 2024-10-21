@@ -52,5 +52,12 @@ namespace LoginWindows
                 ) return true;
             else return false;
         }
+
+        private void cancelarBtn_Click(object sender, EventArgs e)
+        {
+            Form1 inicioVentana = new Form1();
+            inicioVentana.Show();
+            this.Dispose();
+        }
     }
 }

@@ -39,6 +39,7 @@
             this.label5 = new System.Windows.Forms.Label();
             this.ingresarBtn = new System.Windows.Forms.Button();
             this.estadoRegistroLabel = new System.Windows.Forms.Label();
+            this.cancelarBtn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // contraseñaInput
@@ -145,11 +146,23 @@
             this.estadoRegistroLabel.Size = new System.Drawing.Size(0, 21);
             this.estadoRegistroLabel.TabIndex = 17;
             // 
+            // cancelarBtn
+            // 
+            this.cancelarBtn.Font = new System.Drawing.Font("Romantic", 8.249999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.cancelarBtn.Location = new System.Drawing.Point(294, 316);
+            this.cancelarBtn.Name = "cancelarBtn";
+            this.cancelarBtn.Size = new System.Drawing.Size(86, 30);
+            this.cancelarBtn.TabIndex = 18;
+            this.cancelarBtn.Text = "Cancelar";
+            this.cancelarBtn.UseVisualStyleBackColor = true;
+            this.cancelarBtn.Click += new System.EventHandler(this.cancelarBtn_Click);
+            // 
             // FormularioRegistro
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.cancelarBtn);
             this.Controls.Add(this.estadoRegistroLabel);
             this.Controls.Add(this.ingresarBtn);
             this.Controls.Add(this.telefonoInput);
@@ -181,5 +194,6 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Button ingresarBtn;
         private System.Windows.Forms.Label estadoRegistroLabel;
+        private System.Windows.Forms.Button cancelarBtn;
     }
 }
