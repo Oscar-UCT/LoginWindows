@@ -26,7 +26,6 @@ namespace LoginWindows
         {
             using (SQLiteConnection baseDatos = new SQLiteConnection("Data source=usuariosdb.db"))
             {
-                //SQLitePCL.Batteries.Init();
                 baseDatos.Open();
 
                 var command = baseDatos.CreateCommand();

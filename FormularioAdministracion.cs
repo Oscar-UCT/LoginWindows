@@ -86,5 +86,12 @@ namespace LoginWindows
                 }
             }
         }
+
+        private void salitBtn_Click(object sender, EventArgs e)
+        {
+            Form1 ventanaInicio = new Form1();
+            ventanaInicio.Show();
+            this.Dispose();
+        }
     }
 }

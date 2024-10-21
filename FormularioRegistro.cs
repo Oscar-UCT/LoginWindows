@@ -39,7 +39,7 @@ namespace LoginWindows
                 await Task.Delay(1000);
                 Form1 loginFormulario = new Form1();
                 loginFormulario.Show();
-                this.Hide();
+                this.Dispose();
             }
         }
 

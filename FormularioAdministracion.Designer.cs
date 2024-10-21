@@ -38,6 +38,7 @@
             this.ciudadInput = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.telefonoInput = new System.Windows.Forms.TextBox();
+            this.salitBtn = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -136,11 +137,22 @@
             this.telefonoInput.Size = new System.Drawing.Size(144, 26);
             this.telefonoInput.TabIndex = 8;
             // 
+            // salitBtn
+            // 
+            this.salitBtn.Location = new System.Drawing.Point(12, 477);
+            this.salitBtn.Name = "salitBtn";
+            this.salitBtn.Size = new System.Drawing.Size(75, 23);
+            this.salitBtn.TabIndex = 10;
+            this.salitBtn.Text = "Salir";
+            this.salitBtn.UseVisualStyleBackColor = true;
+            this.salitBtn.Click += new System.EventHandler(this.salitBtn_Click);
+            // 
             // FormularioAdministracion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(944, 512);
+            this.Controls.Add(this.salitBtn);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.telefonoInput);
             this.Controls.Add(this.label3);
@@ -171,5 +183,6 @@
         private System.Windows.Forms.TextBox ciudadInput;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox telefonoInput;
+        private System.Windows.Forms.Button salitBtn;
     }
 }
